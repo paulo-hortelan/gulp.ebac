@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  
+  </head>
+
+<body>
+        <header>
+        <nav>
+  
+            <img src="Logo.io.png" alt="Avatar" class="avatar">
+              <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li class="is-active"><a href="#" aria-current="page">Shop</a></li>
+                </ul>
+              </nav>
+          </header>   
+</body>
+
+
+   
+<box class="box has text-centered"><button>Products</button></box>
+
+<div class="has text-centered"><img src="caneca.png" alt="mug"><h1><strong>Mug</strong></h1></div>
+
+<div><img src="earbud.png" alt=""><h1><strong>Earbud IO</strong></h1></div>
+
+<div><img src="bag.png" alt=""><h1><strong>Tote Bag</strong></h1></div>
+
+ 
+<script>
+$( document.body ).on( "click", function () {
+  if ( $( "div" ).first().is( ":hidden" ) ) {
+    $( "div" ).slideDown( "slow" );
+  } else {
+    $( "div" ).hide();
+  }
+} );
+</script>
+    </body>
+
+
+<footer>
+  <footer class="footer">
+    <box class="content has-text-centered">
+      <p>
+        <strong>IO</strong> by <a>Isabelle Sevla</a>. The source code is licensed
+        <a href=".">link</a>. The website content
+        is licensed <a href=".">CC BY NC SA 4.0</a>.
+      </p>
+    </box>
+  </footer>
+  
+</footer>
+</html>
